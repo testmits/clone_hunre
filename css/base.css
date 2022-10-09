@@ -347,3 +347,27 @@
   [hidden] {
     display: none;
   }
+
+
+  /* ADD */
+body {
+  font: normal 1em/1.618 system-ui,-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #040707;
+  -webkit-font-smoothing: antialiased;
+  background-image: url(../img/background.png);
+}
+
+.grid {
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+.grid.wide {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.bg--color {
+  background-color: #6DBC2F;
+}

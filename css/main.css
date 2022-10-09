@@ -1,3 +1,7 @@
-html {
-    
+:root {
+    --color: rgb(109, 188, 60);
+}
+
+.app {
+    overflow: hidden;
 }
