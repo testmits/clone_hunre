@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,21 @@
     <link rel="stylesheet" type="text/css" href="./fontawesome-free-6.2.0-web/css/all.css">
     <title>Hunre</title>
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <div class="app">
-        <header class="header">
-            <div class="grid wide">
+        <div class="grid wide">
+            <header class="header">
                 <div class="header__logo">
                     <img src="./img/logo-hunre.png" alt="logo-hunre" class="header__img">
                 </div>
                 <div class="header__info">
-                    <nav class="header__list-info">
+                    <div class="header__list-info">
                         <ul class="header__items">
                             <li>
-                                <i class="fa-solid fa-house"></i>
+                                <i class="icon fa-solid fa-house"></i>
                                 <span class="items__text">Trang chủ</span>
                             </li>
                             <li>
@@ -27,44 +30,205 @@
                                 <span class="items__text">English</span>
                             </li>
                             <li>
-                                <i class="fa-brands fa-facebook"></i>
+                                <i class="icon color-icon fa-brands fa-facebook"></i>
                             </li>
                             <li>
-                                <i class="fa-brands fa-youtube"></i>
+                                <i class="icon color-icon fa-brands fa-youtube"></i>
                             </li>
                             <li>
                                 <input type="text" placeholder="Tìm kiếm">
-                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i class="icon color fa-solid fa-magnifying-glass"></i>
                             </li>
                         </ul>
-                    </nav>
-    
+                    </div>
+
                     <nav class="header__items-info">
                         <ul class="header__cart-notice">
-                            <li>Tin tức</li>
-                            <li>Thông báo</li>
-                            <li>Sự kiện</li>
-                            <li>Lịch tuần</li>
-                            <li>Thư viện ảnh</li>
-                            <li>Video</li>
-                            <li>Liên hệ</li>
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">Thông báo</a></li>
+                            <li><a href="">Sự kiện</a></li>
+                            <li><a href="">Lịch tuần</a></li>
+                            <li><a href="">Thư viện ảnh</a></li>
+                            <li><a href="">Video</a></li>
+                            <li><a href="">Liên hệ</a></li>
                         </ul>
                     </nav>
-
-                    <nav></nav>
                 </div>
-            </div>
-    
-        </header>
+            </header>
+            <nav class="header__menu bg--color">
+                <ul class="menu__wrap">
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">Giới thiệu</a>
+                        <ul class="bigmenu">
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">LIÊN HỆ VỚI CÁC ĐƠN VỊ</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Số điện thoại lãnh đạo đơn vị</li>
+                                    <li>Liên hệ trợ lý các đơn vị</li>
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">VỀ CHÚNG TÔI</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Thư ngỏ của hiệu trưởng</li>
+                                    <li>Cơ cấu tổ chức</li>
+                                    <li>Lịch sử hình thành và phát triển</li>
+                                    <li>Sứ mạng - Tầm nhìn - giá trị cốt lõi</li>
+                                    <li>Ý nghĩa logo</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">Đơn vị trực thuộc</a>
+                        <ul class="bigmenu">
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">CÁC KHOA & BỘ MÔN</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Khoa Môi trường</li>
+                                    <li>Khoa Kinh tế TN&MT</li>
+                                    <li>Khoa Quản lý đất đai</li>
+                                    <li>Khoa Khí tượng thủy văn</li>
+                                    <li>Khoa Trắc địa bản đồ và Thông tin địa lý</li>
+                                    <li>Khoa Địa chất</li>
+                                    <li>Khoa Tài nguyên nước</li>
+                                    <li>Khoa Công nghệ thông tin</li>
+                                    <li>Khoa Lý luận chính trị</li>
+                                    <li>Bộ môn Luật</li>
+                                    <li>Khoa Khoa học Biển và Hải đảo</li>
+                                    <li>Bộ môn Biến đổi khí hậu và PT biền vững</li>
+                                    <li>Bộ môn Ngoại ngữ</li>
+                                    <li>Khoa Khoa học Đại cương</li>
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">PHÒNG CHỨC NĂNG</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Ban Truyền thông và tư vấn tuyển sinh</li>
+                                    <li>Phòng Công tác học sinh sinh viên</li>
+                                    <li>Phòng Đạo tạo</li>
+                                    <li>Phòng Tổ chức - Hành chính</li>
+                                    <li>Phòng Khảo thí và đảm bảo chất lượng GD</li>
+                                    <li>Phòng Kế hoạch - Tài chính</li>
+                                    <li>Phòng khoa học CN và Hợp tác quốc tế</li>
+                                    <li>Phòng Quản trị thiết bị</li>
+                                    <li>Phòng Thanh tra giáo dục và Pháp chế</li>
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">TRUNG TÂM, TỔ CHỨC ĐOÀN THỂ</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Đảng</li>
+                                    <li>Công đoàn</li>
+                                    <li>Đoàn Thanh niên Cộng sản Hồ Chí Minh</li>
+                                    <li>Cựu sinh viên</li>
+                                    <li>Tạp chí Khoa học Tài nguyên và môi trường</li>
+                                    <li>Trung tâm dịch vụ trường học</li>
+                                    <li>Trung tâm tư vấn và Môi trường</li>
+                                    <li>Trung tâm Thư viện và Công nghệ thông tin</li>
+                                    <li>Trung tâm giáo dục thường xuyên</li>
+                                    <li>Viện nghiên cức Tài nguyên và Biến đổi khí hậu</li>
+                                    <li>Trung tâm hợp tác Đào tạo và Hướng nghiệp SV</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">Hợp tác và phát triển</a>
+                        <ul class="bigmenu">
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">HỢP TÁC TRONG NƯỚC</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Liên kết đào tạo, nghiên cứu</li>
+                                    <li>Trao đổi và học bổng</li>
+                                    <li>Các thỏa thuận hợp tác</li>
+                                    <li>Hội nghị, hội thảo</li>
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">HỢP TÁC QUỐC TẾ</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Các chương trình đào tạo quốc tế</li>
+                                    <li>Trao đổi và Học bổng</li>
+                                    <li>Hợp tác nghiên cứu</li>
+                                    <li>Các thỏa thuận hợp tác</li>
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">CÁC VĂN BẢN LIÊN QUAN</a>
+                                <ul class="bigmenu__level3">
+                                
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">Thông tin Đào tạo</a>
+                        <ul class="bigmenu">
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">ĐẠI HỌC</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Thông báo</li>
+                                    <li>Kế hoạch đào tạo</li>
+                                    <li>Kế hoạch học tập</li>
+                                    <li>Chương trình đào tạo</li>
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">SAU ĐẠI HỌC</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Kết quả học tập</li>
+                                    <li>Thông báo mới</li>
+                                    <li>Kế hoạch Đào tạo</li>
+                                    <li>Chương trình đào tạo</li>
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">VỪA HỌC VỪA LÀM</a>
+                                <ul class="bigmenu__level3">
+                                    <li>Thông báo mới</li>
+                                    <li>Kế hoạch đào tạo</li>
+                                    <li>Chương trình đào tạo</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="" class="menu-item-link">Biểu mẫu sinh viên</a>
+                        <ul class="bigmenu">
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">BIỂU MẪU TỪ PHÒNG ĐÀO TẠO</a>
+                                <ul class="bigmenu__level3">
+                                    
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">BIỂU MẪU TỪ PHÒNG KHẢO THÍ VÀ ĐBCLGD</a>
+                                <ul class="bigmenu__level3">
+                                    
+                                </ul>
+                            </li>
+                            <li class="bigmenu__level2">
+                                <a href="" class="bigmenu__level2-title">BIỂU MẪU TỪ PHÒNG CÔNG TÁC SINH VIÊN</a>
+                                <ul class="bigmenu__level3">
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
 
 
         <div class="main">
-    
+        
         </div>
         <footer class="footer">
-    
+
         </footer>
     </div>
 </body>
+
 </html>
